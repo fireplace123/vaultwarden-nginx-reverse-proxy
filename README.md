@@ -12,8 +12,7 @@ The point of the exercise is to practice the reverse proxy + TLS termination pat
 
 ## It running
 
-![Vaultwarden login served over HTTPS](screenshots/184626.png)
-
+![Vaultwarden login served over HTTPS](screenshots/Screenshot%202026-04-19%20184626.png)
 ![Ports bound correctly — Nginx on 443, Vaultwarden on loopback only](screenshots/ss-tlnp.png)
 
 ## Files
