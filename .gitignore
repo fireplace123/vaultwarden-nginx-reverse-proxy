@@ -1,0 +1,18 @@
+# Vaultwarden data directory — contains the database with your vault!
+vw-data/
+*.sqlite3
+*.db
+
+# Certificates and keys — NEVER commit these
+*.key
+*.crt
+*.pem
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
