@@ -10,6 +10,12 @@ Browser hits Nginx on `:443` over HTTPS → Nginx terminates TLS → forwards th
 
 The point of the exercise is to practice the reverse proxy + TLS termination pattern that sits behind most real web apps.
 
+## It running
+
+![Vaultwarden login served over HTTPS](screenshots/vaultwarden-login.png)
+
+![Ports bound correctly — Nginx on 443, Vaultwarden on loopback only](screenshots/ss-tlnp.png)
+
 ## Files
 
 - `nginx/vaultwarden.conf` — the Nginx server block
